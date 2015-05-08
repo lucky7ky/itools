@@ -61,5 +61,24 @@ let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
 let g:html_indent_style1 = "inc"
 
+"set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#rc()
+call vundle#begin()
+Plugin 'honza/vim-snippets'
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'kien/ctrlp.vim'
+Bundle 'fatih/vim-go'
+Bundle 'octol/vim-cpp-enhanced-highlight'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'pangloss/vim-javascript'
+Bundle 'ervandew/supertab'
+Bundle 'Raimondi/delimitMate'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-scripts/a.vim'
+
+call vundle#end()
 
 filetype plugin indent on     " required!

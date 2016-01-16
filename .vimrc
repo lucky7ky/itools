@@ -79,6 +79,7 @@ Bundle 'ervandew/supertab'
 Bundle 'Raimondi/delimitMate'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-scripts/a.vim'
+Bundle 'kchmck/vim-coffee-script'
 
 call vundle#end()
 
